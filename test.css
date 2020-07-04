@@ -28,8 +28,8 @@ body{
     width: 20%;
 }
 footer{
-
     width: 100%;
+    position: fixed;
     height: 200px;
     font-size: 14px;
     line-height: 22px;
