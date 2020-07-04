@@ -1,0 +1,174 @@
+body{
+    font-size: 1px;
+    line-height: 22px;
+    padding-top: 0;
+    margin-top: 0;
+    font-family: 'Arial Regular';
+    box-sizing: border-box;
+}
+
+.header{
+    bottom: 0;
+ 
+    height: 85px;
+}
+.fixed{
+    position: fixed;
+    top:0;
+    z-index: 4; 
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-md-9{
+    margin-bottom: 40px;
+}
+.adv-col{
+    width: 20%;
+}
+footer{
+
+    width: 100%;
+    height: 200px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ffffff;
+    bottom: 0px;
+}
+
+.bag-icon{
+    margin: 10px 100px;
+    position: absolute;
+}
+.icon-block { transition: all .2s ease-in-out; }
+.icon-block:hover { transform: scale(1.1); 
+color: green;}
+.logo{
+    height: 85px;
+}
+.contact{
+    height: 85px;
+}
+.more-content{
+    position: absolute;
+    right: 25px;
+    top: 15px;
+}
+.more-block{
+height: 85px;
+}
+.info-block{
+    font-size: 14px;
+    line-height: 22px;
+    min-height:450px;
+    padding: 25px;
+}
+.icon-block {
+  margin-bottom: 40px;
+  cursor: pointer;
+  height: 138px;
+  width: 136px;
+  background-color: #dcdcdc;
+}
+
+a:visited, a:hover, a:focus {
+    text-decoration: none;
+    color: #ffffff;
+}
+.navigation{
+position: sticky;
+top: 0;
+text-align: left;
+padding: 15px;
+color: #ffffff;
+font-size: 14px;
+line-height: 22px;
+}
+.main-text-block{
+    height: 213px;
+}
+
+.info-block { 
+    color: #000000;
+}
+
+.search-footer-block{
+    height:180px;
+    padding-top: 10px;
+}
+a li{
+    text-decoration: none;
+    color: black;
+}
+
+.right-footer-block{
+height: 75px;
+
+}
+.second{
+    margin-top: 30px;
+}
+li{
+    list-style: none;
+}
+a:hover {
+    text-decoration:none;
+}
+.small-block{
+    height: 136px;
+}
+
+.list-block {
+-webkit-column-count: 2;
+-moz-column-count: 2;
+column-count: 2;
+padding: 15px;
+}
+@media (max-width: 996px) {
+    .adv-col{
+        width: 30%;
+    }
+    .right-footer-block{
+        display: flex;
+    }
+}
+@media (max-width: 766px) {
+    .col-xs-6{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+  .logo{
+      display: none;
+  }
+  .contact{
+      display: none;
+  }
+  .list-block{
+      margin-bottom: 30px;
+  }
+    .adv-col{
+        width: 50%;
+    }
+    .right-footer-block{
+        margin-top:30px;
+    }
+    footer{
+        height: 90px;
+        font-size: 11px;
+    }
+    .second{
+        margin-top: 0px;
+    }
+    .info-block{
+    margin-top: 40px;
+    }
+    .icon-block {
+        margin: 20px auto;
+    }
+
+}
+
+
+
+
